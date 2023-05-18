@@ -75,6 +75,10 @@ namespace Ejercicio01
                     Console.Clear();
                     Console.WriteLine("ingresar la cantidad a retirar: ");
                     double ret = Convert.ToDouble(Console.ReadLine());
+                    if(ret == null)
+                    {
+                        return;
+                    }
                     if (ret > 0)
                     {
                         cuenta.Retirar(ret);
