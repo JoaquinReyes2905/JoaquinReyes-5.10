@@ -4,19 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-<<<<<<< HEAD
-    <ProjectGuid>{2CEEC8D8-0565-4C6F-B175-869712FA9B37}</ProjectGuid>
+    <ProjectGuid>{5E137261-9896-408A-837F-35CF09F5F5D8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Ejercicio02</RootNamespace>
     <AssemblyName>Ejercicio02</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-=======
-    <ProjectGuid>{B4A771D2-138F-468C-AF7D-3158B22014AE}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio02</RootNamespace>
-    <AssemblyName>Ejercicio02</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
->>>>>>> cf40b9cba08ac3a068ebc00d04b62132dff87941
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
