@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5A704A6F-156C-479E-A9E7-DBBEE28AEF07}</ProjectGuid>
+    <ProjectGuid>{1573B325-833D-487F-8E50-73116960A962}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio03</RootNamespace>
-    <AssemblyName>Ejercicio03</AssemblyName>
+    <RootNamespace>Ejercicio05</RootNamespace>
+    <AssemblyName>Ejercicio05</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,7 +49,6 @@
     <Compile Include="Videojuego.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".editorconfig" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
