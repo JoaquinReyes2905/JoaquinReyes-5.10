@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ejercicio05
 {
-    internal class Videojuego
+    internal class Videojuego:Entregable
     {
         private string titulo = null;
-        private int horas_estimadas = 10;
-        private bool entregado = false;
+        public int horas_estimadas = 10;
+        public bool entregado = false;
         private string genero = null;
         private string compañia = null;
 
@@ -43,5 +43,9 @@ namespace Ejercicio05
         {
             return entregado = false;
         }
+        public string Mostrar() {
+            return "Titulo: " + titulo + " |Genero: " + genero + " |Horas: " + horas_estimadas + " |Compañia: " + compañia;   
+        }
+
     }
 }

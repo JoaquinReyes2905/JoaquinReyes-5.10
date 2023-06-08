@@ -9,7 +9,7 @@ namespace Ejercicio05
     internal class Serie : Videojuego
     {
         private string titulo = null;
-        private int cant_temporadas = 3;
+        public int cant_temporadas = 3;
         private bool entregado = false;
         private string genero = null;
         private string creador = null;
@@ -28,6 +28,11 @@ namespace Ejercicio05
             this.cant_temporadas = cant_temporadas;
             this.genero = genero;
             this.creador = creador;
+
+        }
+         public string Mostrar()
+        {
+            return "Titulo: " + titulo + " |Genero: " + genero + " |Temporadas: " + cant_temporadas + " |Creador: " + creador;
 
         }
     }
